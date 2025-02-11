@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.arpracticeapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.arpracticeapp"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -51,10 +51,7 @@ dependencies {
     implementation(libs.androidx.material3)
 
     // ARCore
-    implementation("com.google.ar:core:1.38.0")
-
-    // SceneView
-    implementation("io.github.sceneview:arsceneview:2.0.0")
+    implementation("com.google.ar:core:1.40.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
