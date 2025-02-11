@@ -49,6 +49,13 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    // ARCore
+    implementation("com.google.ar:core:1.38.0")
+
+    // SceneView
+    implementation("io.github.sceneview:arsceneview:2.0.0")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
